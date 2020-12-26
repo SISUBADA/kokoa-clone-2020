@@ -1,0 +1,31 @@
+.music {
+  display: inline-flex;
+  width: 30px;
+}
+.fa-search {
+  position: relative;
+  bottom: 5px;
+}
+
+.msg {
+  position: relative;
+  bottom: 5px;
+}
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header_title {
+  font-size: 30px;
+  font-weight: 600;
+  padding: var(--horizontal-space);
+}
+
+.screen-header_icons {
+  margin-right: 15px;
+}
+.screen-header_icons span {
+  margin-left: 20px;
+}
